@@ -2,14 +2,16 @@
 use utf8;
 print "Content-Type: text/html\n\n";
 if($ENV{'QUERY_STRING'} eq "") {
-  
    print "<h1>Introduce tu edad</h1>";
    print "<form name=\"search\" method=\"get\" >";
-   print "<input type = \"text\" name=\"nombre\">"; 
-   print "<input type = \"submit\" value=\"enviar\" />";
+   print "<input name=\"Edad\" value=\"Joven\" type=\"radio\">1-20<br>";
+   print "<input name=\"Edad\" value=\"Adulto\" type=\"radio\">21-40<br>";
+   print "<input name=\"Edad\" value=\"Anciano\" type=\"radio\">41 o mas<br>";
+   print "<input type=\"submit\" value=\"Enviar\">";
 }
+
 else {
   @arGet=split("=",$ENV{'QUERY_STRING'});
-  print "Tienes $arGet[1] Años";
+  print "Eres $arGet[1] Disfruta";
 }
 
