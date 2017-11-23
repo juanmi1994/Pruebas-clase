@@ -3,7 +3,7 @@ Pruebas de clase, IAW
 
 Editando desde local
 
-Breve Script en pearl- para ejecutar desde cualquier browser con introduccion de texto que seguidamente, cuando enviamos el resultado nos enseña la edad que tenemos.
+Breve Script en pearl- para ejecutar desde cualquier browser con caja de elección de opciones que cuando enviamos, nos muestra un resultado determinado.
 
 Consejo a tener en cuenta--> 
 El script debe situarse en;
