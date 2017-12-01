@@ -10,3 +10,5 @@ El script debe situarse en;
 */usr/lib/cgi-bin.
 activar con a2enmod cgid
 *Asignarle permisos al edad.pl.
+
+Previamente necesitaremos tener instalado "apache2".
