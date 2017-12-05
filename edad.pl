@@ -12,7 +12,7 @@ if($ENV{'QUERY_STRING'} eq "") {
 }
 
 else {
-   print "<h1>Felicidades!!</h1>"; 
+   print "<h2>Felicidades!!</h2>"; 
 	  @arGet=split("=",$ENV{'QUERY_STRING'});
  		 print "Eres $arGet[1] Disfruta";
 }
